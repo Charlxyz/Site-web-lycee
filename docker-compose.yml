@@ -1,6 +1,6 @@
 services:
   site-web-charly:
     container_name: "charly-web"
-    # build: .
-    image: charly-site-web
+    build: .
+    # image: charly-site-web
     restart: unless-stopped
