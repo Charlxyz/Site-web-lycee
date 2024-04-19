@@ -17,7 +17,7 @@ def  product_home():
 
 @app.route('/login')
 def login():
-    return render_template('LogIn.html')
+    return render_template('Login.html')
 
 @app.route('/register')
 def register():
@@ -31,7 +31,4 @@ def page_404():
 def page_not_found(e):
     return page_404()
 
-# app.run(debug=True)
-
-# if __name__ == '__main__':
 app.run(debug=True, host='0.0.0.0', port=8001)
