@@ -11,7 +11,7 @@ def start():
 def page2():
     return render_template("page2.html")
 
-@app.route('/product-Home')
+@app.route('/product-home')
 def  product_home():
     return render_template('product-page.html') 
 

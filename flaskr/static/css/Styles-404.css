@@ -1,4 +1,11 @@
+h1 {
+    color: rgb(36, 189, 189);
+    text-align: center;
+    size: 19px;
+}
+
 img {
-    top: 50%;
-    left: 50%;
+    max-width: 65%;
+    height: auto;
+    display: block;
 }
