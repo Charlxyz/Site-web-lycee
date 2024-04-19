@@ -1,0 +1,121 @@
+.presentation {
+    margin-right: 0%;
+    font-family: "Arial";
+    font-style: italic;
+    font-weight: bold;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+img {
+    border-radius: 50%;
+    place-content: center;
+}
+
+.place-image{
+    display: flex;
+    justify-content: center;
+    align-items: left;
+}
+
+.bouton-page2{
+    margin-right: 50px;
+    position: absolute;
+    margin-block: -73px;
+    right: 0;
+    color : #ffffff;
+    background-color: #000;
+    font-size: 20px;
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    border-width: 0;
+    cursor: pointer;
+}
+
+.bouton-page2:hover {
+    background-color: #fff;
+    color: black;
+    border-color: #fff;
+    border-width: 3px;
+    transition: 0.3s ease-in-out;
+}
+
+button {
+    background: transparent;
+    border-width: 0;
+}
+
+.langue {
+    color : #ffffff;
+    background-color: #000;
+    font-size: 20px;
+    padding: 0px;
+    text-decoration: none;
+    border-radius: 20px;
+    border-width: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    padding: 15px;
+    width: 325px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.select {
+    margin-left: 10px;
+    height: auto;
+    background-color: #000;
+    color: white;
+    border: none;
+    font-size: 15px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+h1{
+    color: white;
+    font-size: 29px;
+}
+
+h2{
+    color: #dcf11b;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 30px;
+}
+
+h3 {
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.btn-app{
+    margin-right: 50px;
+    position: absolute;
+    margin-block: -73px;
+    right: 0;
+    color : #ffffff;
+    background-color: #000;
+    font-size: 20px;
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    border-width: 0;
+    cursor: pointer;
+}
+
+.btn-app:hover {
+    background-color: #fff;
+    color: black;
+    border-color: #fff;
+    border-width: 3px;
+    transition: 0.3s ease-in-out;
+}
+
+p{
+    width: 90%;
+}
