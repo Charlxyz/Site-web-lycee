@@ -6,4 +6,4 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
-CMD [ "Flask", "main.py:app", "--host", "0.0.0.0", "--port", "80" ]
+CMD [ "Flask", "main.py", "--host", "0.0.0.0", "--port", "5000" ]
