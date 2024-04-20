@@ -5,16 +5,3 @@ services:
     ports:
       - "8001:8001"
     restart: unless-stopped
-    networks:
-      - traefik
-    labels:
-      - "traefik.enable=true"
-      - "traefik.http.routers.charly.entrypoints=websecure"
-      - "traefik.http.routers.charly.tls.certresolver=letsencryptresolver"
-      - "traefik.http.routers.charly.rule=Host(`charly.musubi.dev`)"
-      - "traefik.http.services.charly.loadbalancer.server.port=8001"
-
-networks:
-  traefik:
-    external:
-      name: traefik
